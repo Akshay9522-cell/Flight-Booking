@@ -1,0 +1,46 @@
+{
+    "flights":[
+        {
+         "id":1,
+         "name":"indigo",
+         "from":"Dubai",
+         "to":"India",
+         "departureTime":"2025-02-09T22:29:56",
+         "arivalTime":"25-02-10T02:29;56",
+         "rate":"35 lakh",
+         "class":"economy"
+        },
+        {
+            "id":2,
+            "name":"King",
+            "from":"India",
+            "to":"london",
+            "departureTime":"2025-02-09T22:29:56",
+            "arivalTime":"25-02-10T02:29;56",
+            "rate":"55 lakh",
+            "class":"second class"
+           },
+           {
+            "id":3,
+            "name":"Goair",
+            "from":"Autralia",
+            "to":"Germany",
+            "departureTime":"2025-02-09T22:29:56",
+            "arivalTime":"25-02-10T02:29;56",
+            "rate":"35 lakh",
+            "class":"economy"
+           },
+           {
+            "id":4,
+            "name":"Vistara",
+            "from":"china",
+            "to":"Bhopal",
+            "departureTime":"2025-02-09T22:29:56",
+            "arivalTime":"25-02-10T02:29;56",
+            "rate":"5 lakh",
+            "class":"economy"
+           }
+
+
+    ]
+}

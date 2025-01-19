@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="#">
+    <script src="/jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+           $('.sbmt').click(function(){
+            $('.sbmtform').slideUp(2000)
+        
+           })
+           
+           $('#plane').slideDown(4000)
+           $('.book').fadeIn(4000)
+        })
+    </script>
+</head>
+<body>
+
+    <div class="slider">
+           <div class="slider1">
+            <ul>
+                <li>Home</li>
+                <li>Tour-Packages</li>
+                <li>Pages</li>
+                <li>News</li>
+            </ul>
+           </div>
+    </div>
+    <header class="hero">
+        <nav>
+           <img src="/IMAGES/logo.png" alt="">
+            <ul>
+                <li>Home</li>
+                <li>Tour-Packages</li>
+                <li>Pages</li>
+                <li>News</li>
+            </ul>
+            <div id="srch" class="active">
+                <input type="text" placeholder="search here" id="inp">
+                <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" id="glass" ></i>
+                    <i class="fa-solid fa-xmark" id="mark"></i>
+                </div>
+                <button class="button-29" id="btn">Search</button>
+               
+            </div>
+           
+           
+        </nav>
+       
+        <a href="" class="menu"><i class="fa-solid fa-bars "></i></a>
+        
+        <img src="/IMAGES/plane.png" id="plane" style="display: none;" >
+        <div class="book" style="display: none;">
+            <h1><span>Book</span> Your dream <br><span>Flight</span> Now!</h1>
+            <h1></h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, odio.</p>
+          <div>
+            <button class="btn">Book</button>   
+          </div>
+        </div>
+    </header>
+
+    <section>
+        
+      <form id="form" >
+        <div>
+            <input type="text" placeholder="From" id="from">
+        </div>
+        <img src="/IMAGES/arow.png" width="60px">
+        <div>
+            <input type="text" placeholder="To" id="to">
+        </div>
+        
+        <div>
+            <input type="date"  id="date">
+        </div>
+        
+        <div>
+            <input type="date"  id="rtndate">
+        </div>
+
+        
+
+    </form>
+    <div>
+        <button class="button-29" id="mainbtn">Search</button>
+    </div>
+
+    <div id="show"></div>   
+    <div id="show1"></div>   
+
+    </section>
+
+    <section>
+        <div class="vd" >
+            <video width="100%" height="540" controls autoplay>
+                <source src="/IMAGES/airport.mp4" type="video/mp4">
+                
+              </video>
+        </div>
+    </section>
+
+
+    <section class="footer">
+       
+        <div>
+            <input type="text" placeholder="india">
+        </div>
+        <div >
+            <ul>
+                <li>Help</li>
+                <li>Privacy</li>
+                <li>Setting</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Cookie Policy</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Company Detail</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Explore</li>
+                <li>Company</li>
+                <li>Partners</li>
+                <li>Trips</li>
+                <li>International Sites</li>
+            </ul>
+        </div>
+    </section>
+    <div class="fp">
+
+        <div class="sbmtform">
+          Name:<input type="text" id="name">
+        Phone.No:<input type="number" id="numbr">
+            email:<input type="email" id="email">
+
+            <button class="sbmt">submit</button>
+            <h1 id="head" style="display: none;">Visit Again <br>Thank-You</h1>
+        </div>
+    <p>Cheap flight booking from anywhere, to everywhere</p>
+    <h6>© Skyscanner Ltd 2002 – 2025</h6>
+</div>
+    
+    <script src="/script.js"></script>
+    <script src="/script1.js"></script>
+</body>
+</html>
