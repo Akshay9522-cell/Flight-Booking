@@ -11,7 +11,7 @@ async function myFlight1(e) {
 
     console.log(from,to)
 
-    let table=`<table border=1>
+    let table=`<table border=1 gap=5px >
                <tr>
                <th>Flight Name</th>
                <th>Depature</th>
@@ -19,7 +19,7 @@ async function myFlight1(e) {
                <th>price</th>
                <th>class</th>
                <th>Add</th>
-               <th>Delete</th>
+               
                </tr>`
 
     e.preventDefault()
@@ -62,3 +62,31 @@ const menu=document.querySelector('.menu')
 const slider=document.querySelector('.slider')
 
 
+menu.addEventListener('click',(e)=>{
+
+    slider.classList.toggle('active1')
+    e.preventDefault()
+})
+
+
+const sbmt=document.querySelector('.sbmt')
+const sbmtform=document.querySelector('.sbmtform')
+
+sbmt.addEventListener('click',myForm)
+
+function myForm(){
+    
+    const name=document.getElementById('name').value
+    const nmbr=document.getElementById('numbr').value
+    const email=document.getElementById('email').value
+
+    if(name.length==0 || nmbr.length==0 || email.length==0){
+        sbmtform.style.cssText=`opacity:1`
+         return false
+    }
+     sbmtform.style.cssText=`opacity:0`
+     return true    
+
+   
+    
+}

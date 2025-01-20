@@ -11,6 +11,26 @@
          "class":"economy"
         },
         {
+            "id":11,
+            "name":"Goair",
+            "from":"Dubai",
+            "to":"India",
+            "departureTime":"2025-04-10T22:29:56",
+            "arivalTime":"25-04-10T03:49;56",
+            "rate":"30 lakh",
+            "class":"second class"
+           },
+           {
+            "id":21,
+            "name":"Vistara",
+            "from":"Dubai",
+            "to":"India",
+            "departureTime":"2025-07-11T11:59:56",
+            "arivalTime":"25-04-10T05:05;56",
+            "rate":"15 lakh",
+            "class":"First class"
+           },
+        {
             "id":2,
             "name":"King",
             "from":"India",
@@ -23,12 +43,22 @@
            {
             "id":3,
             "name":"Goair",
-            "from":"Autralia",
+            "from":"Australia",
             "to":"Germany",
             "departureTime":"2025-02-09T22:29:56",
             "arivalTime":"25-02-10T02:29;56",
             "rate":"35 lakh",
             "class":"economy"
+           },
+           {
+            "id":31,
+            "name":"indigo",
+            "from":"Australia",
+            "to":"Germany",
+            "departureTime":"2025-03-09T22:29:56",
+            "arivalTime":"2025-03-10T02:29;56",
+            "rate":"27 lakh",
+            "class":"second"
            },
            {
             "id":4,
@@ -39,6 +69,26 @@
             "arivalTime":"25-02-10T02:29;56",
             "rate":"5 lakh",
             "class":"economy"
+           },
+           {
+            "id":45,
+            "name":"Kingfisher",
+            "from":"china",
+            "to":"Bhopal",
+            "departureTime":"2025-05-29T12:30:56",
+            "arivalTime":"25-02-10T10:30;56",
+            "rate":"8 lakh",
+            "class":"First class"
+           },
+           {
+            "id":46,
+            "name":"indigo",
+            "from":"china",
+            "to":"Bhopal",
+            "departureTime":"2025-06-11T10:12:56",
+            "arivalTime":"25-02-10T02:29;56",
+            "rate":"3 lakh",
+            "class":"second class"
            }
 
 
