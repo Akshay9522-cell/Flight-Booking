@@ -438,6 +438,81 @@ table {
   background: none;
 }
 
+.input span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+#submit-error{
+    color: red;
+}
+
+.input span i{
+    color: seagreen;
+}
+
+.ticket{
+    height: 100vh;
+    background: url(/IMAGES/indigo12.jpg)no-repeat center center/cover;
+}
+
+.form{
+    position: absolute;
+    margin: 100px auto 0px;
+  
+   
+}
+.info{
+    display: flex;
+    flex-direction: column; 
+    margin: 100px auto 0px;
+    position: relative;
+    transform: translate(189%, -52%);
+    gap: 38px;
+    color: #f23353;
+    border: 1px solid black;
+    background: blur;
+    border: none;
+    outline: none;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 150px 200px 100px;
+    padding: 5px;
+    left: -340px;
+    top: 30px;
+}
+
+.info1{
+    border-left: 3px solid #021a39;
+    padding: 5px;
+}
+.fnlbk{
+    padding: 10px;
+    width: 60px;
+}
+.fnlbk:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .fnlbk:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  
+
+
+table{
+    height: 400px;
+    border:none;
+    outline:none;
+    color: rgb(21, 135, 180);
+    td{
+        color: #5468ff;
+    }
+
+}
+
 @media (min-width: 768px) {
   .sbmt {
     font-size: 24px;

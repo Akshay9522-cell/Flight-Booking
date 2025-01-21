@@ -18,7 +18,7 @@ async function myFlight1(e) {
                <th>Arrival</th>
                <th>price</th>
                <th>class</th>
-               <th>Add</th>
+               <th>Book</th>
                
                </tr>`
 
@@ -41,7 +41,7 @@ async function myFlight1(e) {
                     <td>${e.rate}</td>           
                     <td>${e.class}</td>    
                     <td>
-                     <a href="#" >
+                     <a href="book.html" >
                                    <img src="/IMAGES/tick.png" width="30" height="30" >
                                   </a></td>    
                     
@@ -68,7 +68,7 @@ menu.addEventListener('click',(e)=>{
     e.preventDefault()
 })
 
-
+var nameerror=document.getElementById('name-error')
 const sbmt=document.querySelector('.sbmt')
 const sbmtform=document.querySelector('.sbmtform')
 
@@ -84,9 +84,12 @@ function myForm(){
         sbmtform.style.cssText=`opacity:1`
          return false
     }
+
+   
      sbmtform.style.cssText=`opacity:0`
      return true    
 
    
     
 }
+

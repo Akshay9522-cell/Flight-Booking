@@ -43,7 +43,7 @@ btn.addEventListener('click',myFlight)
     }).then((data)=>{
         console.log(data)
 
-        let main=`<table border=1 width=100% height=50%>
+        let main=`<table width=100% height=50%>
                   <tr >
                   <th>id</th>
                   <th>name</th>
