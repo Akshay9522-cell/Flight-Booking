@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seat{
+    display: grid;
+    grid-template-columns: 30px 30px;
+    gap: 1rem;
+    position: relative;
+    left: 20%;
+    padding: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 38px;
+    width: 36px;
+    border: 1px solid black;
+}
+ .active{
+    background-color: green;
+}
+.ss{
+    display: flex;
+    gap: 5rem;
+    cursor: pointer;
+    width: 30%;
+    margin: 100px auto 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.ss:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    
+  }
+  
+  .ss:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .ss:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+  .btn{
+    position: relative;
+    left: 28rem;
+    padding: 8.9px;
+    width: 23.9rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+  

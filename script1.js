@@ -94,4 +94,19 @@ function myForm(){
 }
 
 
+const btnn= document.querySelector('.fnlbk')
+
+
+btnn.addEventListener('click',()=>{
+    var name=document.getElementById('nm').value
+    var last=document.getElementById('ls').value
+var email=document.getElementById('em').value
+    
+
+     localStorage.setItem("nm",name)
+     localStorage.setItem("ls",last)
+     localStorage.setItem("em",email)
+ 
+     alert('Information is saved ')
+})
 

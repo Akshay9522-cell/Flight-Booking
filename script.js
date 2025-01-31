@@ -83,15 +83,3 @@ btn.addEventListener('click',myFlight)
  }
 
  
-const btnn= document.querySelector('.sbmt')
-
-
-btnn.addEventListener('click',()=>{
-    var name=document.getElementById('name').value
-    var numbr=parseInt(document.getElementById('numbr').value)
-var email=document.getElementById('email').value
-
-     localStorage.setItem("name",name)
-     localStorage.setItem("email",email)
-     localStorage.setItem("numbr",numbr)
-})
