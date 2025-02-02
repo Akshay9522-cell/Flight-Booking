@@ -6,3 +6,5 @@ seat.addEventListener('click',()=>{
 })
 
 const btn=document.querySelector('.btn').addEventListener('click',()=>{alert('seat is confirmed')})
+
+
