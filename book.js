@@ -1,7 +1,7 @@
 
 const saveBtn=document.querySelector('.fnlbk')
 
-saveBtn.addEventListener('click',()=>{
+saveBtn.addEventListener('click',(e)=>{
     
     let name=document.getElementById('nm').value
     let last=document.getElementById('ls').value
@@ -17,17 +17,15 @@ saveBtn.addEventListener('click',()=>{
         gender:male,
     
     };
-    localStorage.setItem('user', JSON.stringify(user));
-    alert('Data saved to localStorage!');
+
+    if(name.length==0 || last.length==0 || email.length==0 || age.length==0){
+        alert('plzz Fill details')
+        e.preventDefault()
+    }else{
+        localStorage.setItem('user', JSON.stringify(user));
+        alert('Data saved to localStorage!');
+    }
+   
 })
 
-document.getElementById('load').addEventListener('click', loadData);
-function loadData() {
-    const userString = localStorage.getItem('user');
-    if (userString) {
-        const userObject = JSON.parse(userString);
-        alert(`Name: ${userObject.name}, last: ${userObject.last}, Email: ${userObject.email},age: ${userObject.age},gender: ${userObject.male},`);
-    } else {
-        alert('No user data found in localStorage.');
-    }
-}
+

@@ -594,14 +594,18 @@ table{
     .slider{
         display: block;
     }
-    .button-29{
-        left: 70rem;
-        bottom: -8rem;
-      }
+    .button-29 {
+        left: 35rem;
+        bottom: -18rem;
+    }
+    .ml{
+        bottom: 2rem;
+    }
   
-      .info{
-        left: -556px;
-      }
+    .info {
+        left: -743px;
+    }
+  
   
 
 }
