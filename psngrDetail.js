@@ -5,6 +5,8 @@ function loadData() {
     if (userString) {
         const userObject = JSON.parse(userString);
         alert(`Name: ${userObject.name}, last: ${userObject.last}, Email: ${userObject.email},age: ${userObject.age},gender: ${userObject.male},`);
+      
+  
         name1.innerHTML=userObject.name
         last1.innerHTML=userObject.last
         email1.innerHTML=userObject.email

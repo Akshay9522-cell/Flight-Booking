@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+table{
+
+  border: 1px solid white;
+}
+#row{
+  border: 1px solid black;
+  color: rgb(234, 238, 243)  ;
+}
 .seat{
     display: grid;
     grid-template-columns: 30px 30px;
@@ -132,6 +140,8 @@
      outline: none;
      padding: 20px;
      background-color: #2983ad;
+     color: #d4e5ed;
+     background: linear-gradient(#090979,#020024,#00d4ff);
   }
 
    @media screen and (max-width:787px) {

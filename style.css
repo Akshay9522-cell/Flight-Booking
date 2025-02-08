@@ -469,9 +469,9 @@ table {
     flex-direction: column; 
     margin: 100px auto 0px;
     position: relative;
-    transform: translate(189%, -52%);
+    transform: translate(130%, -52%);
     gap: 38px;
-    color: #f23353;
+    color: hsl(53, 33%, 95%);
     border: 1px solid black;
     background: blur;
     border: none;
@@ -480,8 +480,15 @@ table {
     padding: 5px;
     left: -340px;
     top: 30px;
+    background: linear-gradient(#020024,#090979,#00d4ff);
 }
-
+.info input{
+     font-size: 15px;
+}
+.info p{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
 .info1{
     border-left: 3px solid #021a39;
     padding: 5px;

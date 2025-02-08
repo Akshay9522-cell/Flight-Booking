@@ -3,8 +3,7 @@ const my=document.getElementById('mainbtn')
 my.addEventListener('click',myFlight1)
 
 async function myFlight1(e) {
-     
-    let from=document.getElementById('from').value.toLowerCase()
+      let from=document.getElementById('from').value.toLowerCase()
     let to=document.getElementById('to').value.toLowerCase()
 
 
@@ -30,9 +29,9 @@ async function myFlight1(e) {
 
     let data=await res.json()
 
-    console.log(data)
+        console.log(data)
 
-    data.map((e)=>{
+        data.map((e)=>{
         if(e.from.toLowerCase()=== from && e.to.toLowerCase()===to) 
             table+=`<tr>
                     <td>${e.name}</td>           
